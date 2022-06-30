@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Teminal</class>
+ <widget class="QWidget" name="Teminal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>65</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	background:rgb(255, 255, 255);
+	font-size:20px;
+	font-family:Century Gothic,sans-serif;
+}
+QFrame{
+	border:sold 10px rgba(0,0,0);
+	background:black;
+}
+QLineEdit{
+	color: #8d98a1;
+	background-color:#405361;
+}
+QLineEdit{
+	color: white;
+	background-color:#7D8E95;
+	font-size:18px;
+	border-style:outset;
+	border-radius:10px;
+}
+QPushButton{
+	background:#CDC8B1;
+	border-style:outset;
+	border-radius:15px;
+ 
+}
+QPushButton:pressed{
+	background-color:#CDCDC1;
+	border-style:inset;
+}
+QCheckBox{
+	background:rgba(85,170,225,0);
+	color:white;
+}
+QLabel{
+	background:rgba(85,170,225,0);
+	color:rgb(0,255,128);
+	font-style: italic bold;
+	font size:50px;
+}
+
+</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>391</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>486</y>
+      <width>104</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="command">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="confirm">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>10</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
